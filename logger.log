@@ -1,0 +1,54 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 4683
+"GET / HTTP/1.1" 200 4683
+"GET /new-post HTTP/1.1" 200 4472
+C:\Users\Asus\decode\posts\mysite\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Asus\decode\posts\mysite\blog\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 4683
+C:\Users\Asus\decode\posts\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Asus\decode\posts\mysite\mysite\settings.py changed, reloading.
+Watching for file changes with StatReloader
+MAIN
+New post
+"GET / HTTP/1.1" 200 4683
+C:\Users\Asus\decode\posts\mysite\mysite\settings.py changed, reloading.
+MAIN
+New post
+MAIN
+New post
+warning do something
+MAIN
+New post
+warning do something
+MAIN
+New post
+warning do something
+CRITICAL 2022-11-25 20:45:19,423 views 13644 3092 MAIN
+CRITICAL 2022-11-25 20:45:19,439 views 13644 3092 New post
+WARNING 2022-11-25 20:45:19,446 views 13644 3092 warning do something
+CRITICAL 2022-11-25 20:48:38,971 views 11292 19596 MAIN 12356456
+CRITICAL 2022-11-25 20:48:38,990 views 11292 19596 New post
+WARNING 2022-11-25 20:48:38,995 views 11292 19596 warning do something
+CRITICAL 2022-11-25 20:48:41,810 views 20952 3492 MAIN 
+CRITICAL 2022-11-25 20:48:41,833 views 20952 3492 New post
+WARNING 2022-11-25 20:48:41,837 views 20952 3492 warning do something
+CRITICAL 2022-11-25 20:48:43,774 views 2744 9916 MAIN 
+CRITICAL 2022-11-25 20:48:43,793 views 2744 9916 New post
+WARNING 2022-11-25 20:48:43,796 views 2744 9916 warning do something
+CRITICAL 2022-11-25 20:48:53,871 views 10992 10320 New post
+WARNING 2022-11-25 20:48:53,875 views 10992 10320 warning do something
+CRITICAL 2022-11-25 20:49:07,656 views 21016 18772 MAIN <QuerySet [<Post: Чемпионат мира по футболу 2022>, <Post: Выборы в Казахстане>]>
+CRITICAL 2022-11-25 20:49:07,657 views 21016 18772 New post
+WARNING 2022-11-25 20:49:07,662 views 21016 18772 warning do something
+CRITICAL 2022-11-25 20:49:42,388 views 8056 5272 MAIN Чемпионат мира по футболу 2022
+CRITICAL 2022-11-25 20:49:42,389 views 8056 5272 New post
+WARNING 2022-11-25 20:49:42,396 views 8056 5272 warning do something
+CRITICAL 2022-11-25 20:53:33,777 views 11172 3296 MAIN Чемпионат мира по футболу 2022
+CRITICAL 2022-11-25 20:53:33,778 views 11172 3296 New post
+WARNING 2022-11-25 20:53:33,783 views 11172 3296 warning do something
+CRITICAL 2023-01-16 18:50:50,347 views 17396 19544 MAIN Чемпионат мира по футболу 2022
+CRITICAL 2023-01-16 18:50:50,347 views 17396 19544 New post
+WARNING 2023-01-16 18:50:50,351 views 17396 19544 warning do something
