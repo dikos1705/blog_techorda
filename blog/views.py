@@ -14,7 +14,14 @@ logger = logging.getLogger(__name__)
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by('-created_on')
     template_name = 'index.html'
-    logger.critical(f'MAIN {Post.objects.first()}')
+    # logger.critical(f'MAIN {Post.objects.first()}')
+
+
+
+#function based view
+#class based view 
+
+
 
 
 #handler/
@@ -32,10 +39,10 @@ class PostDelete(generic.DeleteView):
     model = Post
     success_url = reverse_lazy('home')
     template_name = 'post_delete.html'
-    success_url = reverse_lazy('home')
+
 
 class PostCreate(generic.CreateView):
-    logger.critical('New post')
+    # logger.critical('New post')
     model = Post
     fields = '__all__'
     template_name = 'post_create.html'
@@ -46,6 +53,7 @@ class PostCreate(generic.CreateView):
 class PostDetail(generic.DetailView):
     model = Post
     template_name = 'post_detail.html'
+
     def get(self ,request,slug):
         template_name = 'post_detail.html'
         post = get_object_or_404(Post, slug=slug)

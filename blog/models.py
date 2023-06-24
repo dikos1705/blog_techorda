@@ -6,6 +6,9 @@ STATUS = (
     (0,"Draft"),
     (1,"Publish")
 )
+#p= post.objects.all()
+#p1= p[0]
+#p1.blog_posts => dias
 
 class Post(models.Model):
     title = models.CharField(max_length=200, unique=True)
